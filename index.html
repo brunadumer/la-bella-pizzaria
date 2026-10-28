@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="La Bella Pizzaria - Há mais de 20 anos em Curitiba. Mais de 100 sabores de pizza, sushis, bebidas e jantar. Delivery rápido e reservas pelo WhatsApp.">
+    <title>La Bella Pizzaria | Pizzas, sushis e jantar em Curitiba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ========== HEADER ========== -->
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <!-- EDITÁVEL: Logo -->
+                <a href="#inicio" class="logo">
+                    <img src="images/logo.png" alt="La Bella Pizzaria">
+                </a>
+
+                <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#cardapio">Cardápio</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="#faq">Dúvidas</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li class="nav-ctas">
+                        <!-- EDITÁVEL: Links de reserva e delivery -->
+                        <a href="https://wa.me/5541997116894" class="btn btn-outline-light btn-sm" target="_blank" rel="noopener" data-msg="reserva">Reservar</a>
+                        <a href="https://pedeaqui.app/la-bella-pizzaria" class="btn btn-accent btn-sm" target="_blank" rel="noopener">Pedir delivery</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero" id="inicio">
+        <div class="hero-background">
+            <!-- EDITÁVEL: Foto principal -->
+            <img src="images/mesa-hero.png" alt="Mesa farta com pizzas, sushis e porções da La Bella" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">Há mais de 20 anos em Curitiba</div>
+                <!-- EDITÁVEL: Título principal -->
+                <h1>Muito mais que <span class="script">pizza</span>.</h1>
+                <!-- EDITÁVEL: Subtítulo -->
+                <p class="hero-subtitle">À la carte de pizzas, sushis, jantar e muito mais. Massa fresquinha, sabores irresistíveis e o toque especial da La Bella, no salão ou no delivery.</p>
+                <div class="hero-buttons">
+                    <a href="https://pedeaqui.app/la-bella-pizzaria" class="btn btn-primary" target="_blank" rel="noopener">Fazer pedido</a>
+                    <a href="https://wa.me/5541997116894" class="btn btn-secondary" target="_blank" rel="noopener" data-msg="reserva">Reservar mesa</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">+100</span>
+                        <span class="stat-label">sabores de pizza</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4</span>
+                        <span class="stat-label">tamanhos</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">20+</span>
+                        <span class="stat-label">anos de história</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAIXA DE INFORMAÇÕES ========== -->
+    <div class="info-faixa">
+        <div class="container">
+            <!-- EDITÁVEL: Horário, endereço e telefone -->
+            <div class="info-faixa-item">
+                <span class="info-faixa-icone">🕕</span>
+                <div><strong>Aberto todos os dias</strong>das 18h às 23h50</div>
+            </div>
+            <div class="info-faixa-item">
+                <span class="info-faixa-icone">📍</span>
+                <div><strong>R. Eduardo Sprada, 4900</strong>Curitiba – PR</div>
+            </div>
+            <a class="info-faixa-item" href="tel:+554132284683">
+                <span class="info-faixa-icone">📞</span>
+                <div><strong>(41) 3228-4683</strong>jante no local ou peça delivery</div>
+            </a>
+        </div>
+    </div>
+
+    <!-- ========== CARDÁPIO ========== -->
+    <section class="servicos" id="cardapio">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Conheça nosso cardápio</span>
+                <h2>Da pizza clássica ao sushi, tem para todo mundo</h2>
+            </div>
+            <div class="servicos-grid">
+                <!-- EDITÁVEL: Cards do cardápio -->
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="images/pizza.jpg" alt="Pizza da La Bella">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Pizzas</h3>
+                        <p>Dos clássicos aos que estão em alta: são mais de 100 sabores e 4 tamanhos para escolher.</p>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="images/sushi.png" alt="Sushis de salmão">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Sushis</h3>
+                        <p>Peças preparadas com ingredientes de primeira e sempre frescos, com opções clássicas e diferentonas.</p>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="images/drink.png" alt="Drink da casa">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Bebidas</h3>
+                        <p>Drinks com e sem álcool, chopes, cervejas e uma carta de vinhos e espumantes selecionados.</p>
+                    </div>
+                </div>
+                <div class="servico-card">
+                    <div class="servico-image">
+                        <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=500&q=80" alt="Prato de massa">
+                    </div>
+                    <div class="servico-content">
+                        <h3>Porções e jantar</h3>
+                        <p>Delícias para dividir na mesa e fechar a sua experiência com chave de ouro.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cardapio-acoes">
+                <!-- EDITÁVEL: Link do cardápio em PDF -->
+                <a href="https://labellapizzarias.com.br/wp-content/uploads/2026/06/Web-La-Bella-Pizzaria-1.pdf" class="btn btn-primary" target="_blank" rel="noopener">Ver cardápio completo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DELIVERY ========== -->
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-box">
+                <div>
+                    <h2>Garantimos um delivery rápido!</h2>
+                    <p>Pizza quentinha e sushi fresquinho na sua casa. Escolha onde prefere pedir.</p>
+                </div>
+                <div class="delivery-botoes">
+                    <!-- EDITÁVEL: Links de delivery -->
+                    <a href="https://pedeaqui.app/la-bella-pizzaria" class="btn btn-accent" target="_blank" rel="noopener">Pedir no Pede Aqui</a>
+                    <a href="https://pedido.anota.ai/loja/superbellapizzaria" class="btn btn-outline-light" target="_blank" rel="noopener">Pedir no Anota Aí</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SOBRE ========== -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-image">
+                    <!-- EDITÁVEL: Imagem do estabelecimento ou equipe -->
+                    <img src="images/mascote.jpg" alt="Mascote da La Bella Pizzaria">
+                </div>
+                <div class="sobre-info">
+                    <span class="eyebrow">Sobre nós</span>
+                    <h2>Inspirados pela Itália, feitos com carinho de casa</h2>
+                    <div class="sobre-text">
+                        <!-- EDITÁVEL: Texto sobre o negócio -->
+                        <p>A <strong>La Bella Pizzaria</strong> nasceu do desejo de unir boa comida, hospitalidade e momentos inesquecíveis. Inspirados pela culinária italiana e pelo carinho caseiro, criamos um ambiente acolhedor e pratos cheios de personalidade.</p>
+                        <p>Acreditamos que comer bem vai muito além do prato: é compartilhar histórias, celebrar encontros e criar memórias à mesa.</p>
+                    </div>
+                    <div class="sobre-features">
+                        <div class="feature">
+                            <div class="feature-icon">🍕</div>
+                            <div>
+                                <h3>Massa fresquinha</h3>
+                                <p>Preparada todos os dias para cada pizza sair no ponto.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🍣</div>
+                            <div>
+                                <h3>Pizza e sushi na mesma mesa</h3>
+                                <p>Cada um pede o que gosta, e todo mundo sai feliz.</p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">🥂</div>
+                            <div>
+                                <h3>Espaço para celebrar</h3>
+                                <p>Aniversários, formaturas e confraternizações.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GALERIA ========== -->
+    <section class="galeria">
+        <div class="container">
+            <div class="galeria-grid">
+                <!-- EDITÁVEL: Imagens da galeria (troque por fotos reais da casa) -->
+                <div class="galeria-item grande">
+                    <img src="https://images.unsplash.com/photo-1593504049359-74330189a345?w=900&q=80" alt="Pizza saindo com queijo derretido">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=500&q=80" alt="Combinado de sushi">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?w=500&q=80" alt="Pizza de calabresa">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=500&q=80" alt="Amigos brindando à mesa">
+                </div>
+                <div class="galeria-item">
+                    <img src="https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=500&q=80" alt="Sobremesa">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== DEPOIMENTOS ========== -->
+    <section class="depoimentos" id="depoimentos">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Feedbacks</span>
+                <h2>O que nossos clientes dizem</h2>
+            </div>
+            <div class="depoimentos-grid">
+                <!-- EDITÁVEL: Depoimentos dos clientes -->
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <h3>Lugar show!</h3>
+                    <p>"Que lugar show, a comida é maravilhosa! Fomos na formatura da minha filha e coincidiu com o aniversário da pizzaria. Ambiente agradável, se não morasse em outra cidade seria cliente assídua com certeza."</p>
+                    <div class="depoimento-header">
+                        <div class="avatar">V</div>
+                        <div class="depoimento-info">
+                            <h4>Velidiana B.</h4>
+                            <span>Curitiba – PR</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <h3>Experiência incrível</h3>
+                    <p>"Ambiente muito agradável, pizza muito saborosa e adorei o capricho na sobremesa que pedi. Com certeza vou voltar mais vezes."</p>
+                    <div class="depoimento-header">
+                        <div class="avatar">E</div>
+                        <div class="depoimento-info">
+                            <h4>Emanuelly Alves</h4>
+                            <span>Curitiba – PR</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="depoimento-card">
+                    <div class="depoimento-stars">★★★★★</div>
+                    <h3>Surpreendida</h3>
+                    <p>"Adorei conhecer! Me surpreendi muito com a pizza, super gostosa e bem recheada. Tem também sushis bem bacanas, com umas opções diferentonas. Vale a pena conhecer!"</p>
+                    <div class="depoimento-header">
+                        <div class="avatar">G</div>
+                        <div class="depoimento-info">
+                            <h4>Gabriela Gelinski</h4>
+                            <span>Curitiba – PR</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== RESERVA ========== -->
+    <section class="reserva">
+        <div class="container">
+            <h2>Confraternize na <span class="script">La Bella!</span></h2>
+            <p>Aniversário, formatura, encontro da família ou da firma: reserve o seu espaço com a gente.</p>
+            <a href="https://wa.me/5541997116894" class="btn btn-accent" target="_blank" rel="noopener" data-msg="reserva">Reservar pelo WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="faq" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Dúvidas</span>
+                <h2>Perguntas frequentes</h2>
+            </div>
+            <div class="faq-list">
+                <!-- EDITÁVEL: Perguntas e respostas -->
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Qual o horário de funcionamento?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Abrimos todos os dias, das 18h às 23h50, tanto para jantar no local quanto para delivery.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Como faço meu pedido de delivery?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Você pode pedir pelo <a href="https://pedeaqui.app/la-bella-pizzaria" target="_blank" rel="noopener">Pede Aqui</a>, pelo <a href="https://pedido.anota.ai/loja/superbellapizzaria" target="_blank" rel="noopener">Anota Aí</a> ou pelo telefone (41) 3228-4683.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Quantos sabores e tamanhos de pizza vocês têm?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>São mais de 100 sabores, dos clássicos aos que estão em alta, em 4 tamanhos diferentes. Confira tudo no <a href="https://labellapizzarias.com.br/wp-content/uploads/2026/06/Web-La-Bella-Pizzaria-1.pdf" target="_blank" rel="noopener">cardápio completo</a>.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Vocês servem sushi?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Sim! Além das pizzas, temos sushis feitos com ingredientes frescos, porções e pratos para o jantar.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Como faço uma reserva ou evento?
+                        <span class="faq-icon">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>É só chamar no WhatsApp <a href="https://wa.me/5541997116894" target="_blank" rel="noopener" data-msg="reserva">(41) 99711-6894</a> com a data, o horário e o número de pessoas. Recebemos aniversários, formaturas e confraternizações.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTATO ========== -->
+    <section class="contato" id="contato">
+        <div class="container">
+            <div class="section-header">
+                <span class="eyebrow">Contato</span>
+                <h2>Venha nos visitar</h2>
+            </div>
+            <div class="contato-content">
+                <div class="contato-info">
+                    <!-- EDITÁVEL: Informações de contato -->
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>Telefone</h4>
+                            <p><a href="tel:+554132284683">(41) 3228-4683</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📱</div>
+                        <div>
+                            <h4>WhatsApp e reservas</h4>
+                            <p>(41) 99711-6894</p>
+                            <a href="https://wa.me/5541997116894" class="btn btn-whatsapp" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>Endereço</h4>
+                            <p>R. Eduardo Sprada, 4900<br>Curitiba – PR</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <h4>E-mail</h4>
+                            <p><a href="mailto:contato@labellapizzaria.com">contato@labellapizzaria.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-mapa">
+                    <!-- EDITÁVEL: Endereço do mapa -->
+                    <iframe src="https://www.google.com/maps?q=R.+Eduardo+Sprada,+4900+-+Curitiba+-+PR&output=embed" loading="lazy" title="Mapa da La Bella Pizzaria" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ÁREA RESERVADA PARA AGENTE DE IA ========== -->
+    <div id="ai-agent-container" class="ai-agent-area">
+        <!-- O widget do agente de IA será inserido aqui -->
+    </div>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <img src="images/logo.png" alt="La Bella Pizzaria" class="footer-logo">
+                <p>Na La Bella, celebramos o sabor e criamos momentos únicos com dedicação, tradição e paixão pela boa gastronomia.</p>
+                <div class="footer-links">
+                    <a href="#cardapio">Cardápio</a>
+                    <a href="#sobre">Sobre</a>
+                    <a href="#faq">Dúvidas</a>
+                    <a href="#contato">Contato</a>
+                </div>
+                <div class="footer-social">
+                    <!-- EDITÁVEL: Redes sociais -->
+                    <a href="https://www.instagram.com/labella.pizzarias/" target="_blank" rel="noopener">Instagram</a>
+                    <a href="https://www.facebook.com/labellapizzariacwb" target="_blank" rel="noopener">Facebook</a>
+                    <a href="https://www.youtube.com/@LaBellaPizzariaCuritiba" target="_blank" rel="noopener">YouTube</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 La Bella Pizzaria. Todos os direitos reservados.</p>
+                <p><a href="#privacidade">Política de Privacidade</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão flutuante do WhatsApp -->
+    <a href="https://wa.me/5541997116894" class="whatsapp-flutuante" target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .9c-1-.4-2.4-1.8-2.8-2.8l.9-1-1-2L9 8.5Z" fill="currentColor"/></svg>
+    </a>
+
+    <!-- Política de Privacidade (texto simples no rodapé) -->
+    <section class="privacidade" id="privacidade">
+        <div class="container">
+            <h3>Política de Privacidade</h3>
+            <p>A La Bella Pizzaria respeita sua privacidade. Os dados coletados são utilizados apenas para processamento de pedidos e comunicação com clientes. Não compartilhamos informações pessoais com terceiros sem consentimento.</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
